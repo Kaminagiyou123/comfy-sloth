@@ -4,7 +4,27 @@ import { services } from '../utils/constants'
 
 const Services = () => {
   return <Wrapper>
-    
+    <div className='section-center'>
+      <article className='header'>
+        <h3>custom furniture <br/>
+        built just for you
+        </h3>
+        <p>Proin tristique ligula nec tempor rhoncus. In sit amet velit sit amet enim fringilla semper id quis urna. Aliquam non interdum dui, eget tristique libero. Nullam convallis turpis nec lorem bibendum, eleme
+        </p>
+      </article>
+      <div className='services-center'>
+        {services.map((service)=>{
+          const {id,icon,title,text}=service
+          return (
+            <article key={id} className='service'>
+              <span className='icon'>{icon}</span>
+              <h4>{title}</h4>
+              <p>{text}</p>
+            </article>
+          )
+        })}
+      </div>
+    </div>
   </Wrapper>
 }
 
