@@ -58,7 +58,7 @@ return <Wrapper>
     <p className='info'><span>Available: </span>
     {stock >0 ?'In stock': 'Out of stock'}</p>
     <hr/>
-    {stock >0 && <AddToCart/>}
+    {stock >0 && <AddToCart product={product}/>}
   </section>
 </div>
   </div>
