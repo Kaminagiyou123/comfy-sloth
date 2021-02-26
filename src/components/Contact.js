@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='section-center'>
       <h3>Join our newsletter and get 20% off</h3>
       <div className='content'>
-        <p>lorum</p>
+        <p>Pellentesque vehicula condimentum nisl. Proin ac tincidunt purus. Vivamus ultricies rutrum ante vitae commodo. Morbi tempor ligula eu dui aliquet, condimentum pulvinar enim sagittis. Mauris rhoncus risus consequat, ultrices odio in, mollis dolor. Nunc facilisis sodales pulvinar. Duis nunc libero, cursus sed nibh id, euismod tristique erat. Aliquam blandit velit sit amet quam placerat porta. Etiam consequat felis id magna sagittis, eu euismod lorem porta. Vestibulum ullamcorper tincidunt semper. Cras rhoncus gravida tempor.</p>
         <form className='contact-form' action="https://formspree.io/f/xrgowzga" method="POST"
         >
           <input type='email' className='form-input' placeholder='enter email' name="_replyto"/>
