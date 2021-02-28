@@ -12,7 +12,7 @@ function App() {
       <Route exact path='/products' exact><Products/></Route>
       <Route exact path='/cart' exact><Cart/></Route>
       <Route exact path='/error' exact><Error/></Route>
-      <Route exact path='/checkout' exact><Checkout/></Route>
+      <Private exact path='/checkout' ><Checkout/></Private>
       <Route exact path='/products/:id' children= {<SingleProduct/>}/>
   </Switch>
   <Footer/>
