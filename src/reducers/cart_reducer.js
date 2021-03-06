@@ -65,15 +65,9 @@ return {...item,amount:newAmount}
 return {...item,amount:newAmount}
       
     }
-<<<<<<< HEAD
       } 
         return item
       
-=======
-      } else {
-        return item
-      }
->>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
     })
     return {...state,cart:tempCart}
   }

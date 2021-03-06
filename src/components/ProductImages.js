@@ -5,11 +5,7 @@ const ProductImages = ({images = [{url:''}]}) => {
   const [main,setMain]=useState(0)
   return (
   <Wrapper>
-<<<<<<< HEAD
     <img src={images[main].url} alt='main' className='main' />
-=======
-    <img src={images[main].url} alt='main image' className='main' />
->>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
     <div className='gallery'>
       {images.map((image,index)=>{
      return <img src={image.url} alt= {image.filename} key={index} onClick={()=>{setMain(index)}}

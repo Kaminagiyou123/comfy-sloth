@@ -54,10 +54,6 @@ const setListView=()=>{
   dispatch({type:SET_LISTVIEW})
 } 
 const updateSort=(e)=>{
-<<<<<<< HEAD
-=======
-  const name=e.target.name
->>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
   const value=e.target.value
   console.log(value)
   dispatch({type:UPDATE_SORT,payload:value})

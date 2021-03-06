@@ -28,19 +28,12 @@ useEffect(()=>{
        history.push('/') 
       },3000)
     }
-<<<<<<< HEAD
     //eslint-disable-next-line
   },[error])
 
 useEffect(()=>{
 fetchSingleProduct(`${url}${id}`)    //eslint-disable-next-line
 },[id])
-=======
-  },[error])
-
-useEffect(()=>{
-fetchSingleProduct(`${url}${id}`)},[id])
->>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
 
 if (loading){
   return <Loading/>
