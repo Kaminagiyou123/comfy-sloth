@@ -14,6 +14,7 @@ export const UserProvider = ({ children }) => {
   useEffect(()=>{
     if(isAuthenticated){
       setMyUser(user)
+      console.log(myUser)
     } else {
       setMyUser(false)
     }
