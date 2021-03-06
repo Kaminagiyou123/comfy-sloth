@@ -26,10 +26,18 @@ const FeaturedProducts = () => {
           )
         })}
       </div>
+<<<<<<< HEAD
 <Link to ='/products' className='btn'> all Product</Link>
     </Wrapper>
   }
 
+=======
+
+    </Wrapper>
+  }
+
+  return <h4>featured products</h4>
+>>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
 }
 
 const Wrapper = styled.section`

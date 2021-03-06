@@ -5,10 +5,17 @@ import SingleProduct from './SingleProductPage'
 import Cart from './CartPage'
 import Error from './ErrorPage'
 import Checkout from './CheckoutPage'
+<<<<<<< HEAD
 import PrivateRoute from './PrivateRoute'
 import AuthWrapper from './AuthWrapper'
 
 export {
     Home,About,Products,SingleProduct,Cart,Error,Checkout,PrivateRoute,AuthWrapper
+=======
+import Private from './PrivateRoute'
+
+export {
+    Home,About,Products,SingleProduct,Cart,Error,Checkout,Private
+>>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
 
 }

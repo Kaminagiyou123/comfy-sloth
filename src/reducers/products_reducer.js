@@ -37,8 +37,14 @@ const products_reducer = (state, action) => {
     return {...state,singe_product_loading:false,single_product_error:true}
   }
   
+<<<<<<< HEAD
 
  throw new Error(`No Matching "${action.type}" - action type`)
+=======
+  return state
+
+  throw new Error(`No Matching "${action.type}" - action type`)
+>>>>>>> f596702c5b8965fef21f554a8355fc244e723dfb
 }
 
 export default products_reducer
