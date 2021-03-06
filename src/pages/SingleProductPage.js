@@ -28,10 +28,12 @@ useEffect(()=>{
        history.push('/') 
       },3000)
     }
+    //eslint-disable-next-line
   },[error])
 
 useEffect(()=>{
-fetchSingleProduct(`${url}${id}`)},[id])
+fetchSingleProduct(`${url}${id}`)    //eslint-disable-next-line
+},[id])
 
 if (loading){
   return <Loading/>
